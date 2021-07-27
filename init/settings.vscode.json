@@ -1,0 +1,43 @@
+{
+	"editor.suggestSelection": "first",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"editor.fontFamily": "'Fira Code'",
+	"editor.fontLigatures": true,
+	"[json]": {
+			"editor.defaultFormatter": "esbenp.prettier-vscode",
+			"editor.formatOnSave": true
+	},
+	"[javascript]": {
+			"editor.formatOnSave": true,
+			"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"emmet.includeLanguages": {
+			"njk": "html"
+	},
+	"editor.tabSize": 2,
+	"window.zoomLevel": 0,
+	"workbench.colorTheme": "Tomorrow Night",
+	"[html]": {
+			"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"files.insertFinalNewline": true,
+	"prettier.requireConfig": true,
+	"workbench.editorAssociations": {
+			"*.png": "imagePreview.previewEditor"
+	},
+	"terminal.integrated.shell.osx": "/bin/bash",
+	"[yaml]": {
+			"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"explorer.compactFolders": false,
+	"liveshare.authenticationProvider": "GitHub",
+	"[css]": {
+			"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+			"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"terminal.integrated.scrollback": 99999,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"workbench.startupEditor": "none"
+}

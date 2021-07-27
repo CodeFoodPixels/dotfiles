@@ -12,6 +12,10 @@ function doIt() {
 		--exclude "README.md" \
 		--exclude "LICENSE-MIT.txt" \
 		-avh --no-perms . ~;
+	./brew.sh && \
+	./mas.sh && \
+	./vscode.sh && \
+  ./.macos && \
 	source ~/.bash_profile;
 }
 
@@ -24,4 +28,3 @@ else
 		doIt;
 	fi;
 fi;
-unset doIt;
